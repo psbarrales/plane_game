@@ -1,9 +1,10 @@
 #ifndef EVENT
 #define EVENT
 
-#include "../../utils/colors.h"
+#include "../utils/colors.h"
 
-struct Event_Model {
+struct Event_Model 
+{
     char *kind;
     unsigned int value;
 };
